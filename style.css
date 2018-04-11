@@ -1,0 +1,61 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding: 10px;
+    margin: 0;
+  
+}
+.row{
+    
+    margin: 0;
+    color: floralwhite;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    box-shadow: 0 4px 8pxpx 0 rgba(0,0,0,.01), 0 4px 14px 0 rgba(0,0,0,.01);
+}
+.heading{
+    box-sizing: border-box;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    padding:2px;
+    background-color: ghostwhite;
+    color: black;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+h2{
+    font-weight: 100;
+    color: blue;
+}
+.clickME{
+    padding: 10px 0 ;
+    margin: 20px 20px;
+}
+.closeBTN{
+    position:absolute;
+    top: 3px;
+    right:3px;;
+    background: black;
+    color: whitesmoke;
+    border-radius: 50%;
+    padding: 0 4px;
+}
+.closeBTN:hover{
+    transform: scale(1.1);
+    background: red;
+    color: black;
+}
+.column{
+ display: none;
+ justify-content: flex-start;
+ padding: 4px;
+ background: white;
+ color: black;
+ position: relative;
+}
